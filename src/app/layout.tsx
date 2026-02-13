@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { DM_Serif_Display, Plus_Jakarta_Sans } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const dmSerif = DM_Serif_Display({
@@ -28,6 +29,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${dmSerif.variable} ${jakarta.variable} font-sans antialiased`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );

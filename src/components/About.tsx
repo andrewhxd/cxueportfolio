@@ -3,16 +3,16 @@
 import { motion } from "framer-motion";
 
 const skills = [
-  "Excel",
+  "Product Strategy",
+  "A/B Testing",
+  "Stakeholder Management",
   "Python",
-  "Java",
+  "Excel",
   "Tableau",
   "Figma",
-  "PowerPoint",
-  "PitchBook",
-  "Think-Cell",
+  "SQL",
   "Financial Modeling",
-  "Mandarin",
+  "Data Analysis",
 ];
 
 const pillColors = [
@@ -82,10 +82,11 @@ export default function About() {
                 the College of Computing, Data Science &amp; Society.
               </p>
               <p>
-                I love working at the intersection of strategy, data, and impact &mdash;
-                whether that&apos;s building financial models for the Gates Foundation,
-                consulting on sustainability for public transit, or leading recruitment
-                for Berkeley&apos;s largest consulting organization.
+                I love designing products and leading cross-functional teams to turn
+                ambiguous problems into structured solutions &mdash; whether that&apos;s
+                building simulation engines for the Gates Foundation, defining data
+                strategy for global health at PATH, or translating user insights into
+                product decisions at Microsoft.
               </p>
               <p>
                 When I&apos;m not crunching numbers or crafting slide decks, you can find
